@@ -1,6 +1,6 @@
-# Pheno006 example dataset: Two sessions with one imaging-only session. No sessions files
+# Pheno006 example dataset: Two sessions with one imaging-only session. Sessions file is an "inventory".
 
-This dataset contains imaging and phenotypic data from the baseline session and phenotypic data from followup sessions. This an example of a case where adding sessions files does not provide any new information. In other words, a sessions file is not strictly necessary here. Note how these sessions files do not contain `acq_time`, which will trigger a warning in the validator. The file tree is as follows:
+This dataset contains imaging and phenotypic data from the baseline session and phenotypic data from followup sessions. This an example of a case where adding a sessions file will be only an "inventory" of sessions. In other words, a sessions file only contains `participant_id` and `session_id` and does not feel strictly necessary here, but with the `"AdditionalValidation"` from BEP036 it is REQUIRED still. Bear in mind these sessions files do not contain `acq_time`, which will trigger a warning in the validator as well. The file tree is as follows:
 
 ```bash
 pheno006
