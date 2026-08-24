@@ -10,8 +10,8 @@ pheno005
 |-- phenotype
 |   |-- tool-ACE_phenotype.json
 |   |-- tool-ACE_phenotype.tsv
-|   |-- tool-Demographics_phenotype.json
-|   `-- tool-Demographics_phenotype.tsv
+|   |-- tool-demographics_phenotype.json
+|   `-- tool-demographics_phenotype.tsv
 |-- sub-01
 |   `-- ses-baseline
 |       `-- anat
