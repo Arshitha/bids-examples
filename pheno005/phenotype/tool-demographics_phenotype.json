@@ -3,6 +3,9 @@
 		"participant_id",
 		"session_id"
 	],
+	"MeasurementToolMetadata": {
+		"Description": "BIDS multi-session demographics file."
+	},
 	"participant_id": {
 		"Description": "Unique participant identifier."
 	},
